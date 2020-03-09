@@ -1,2 +1,2 @@
 # MovieRaterAPI
-a project on Django
+Django API Project
