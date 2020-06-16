@@ -25,7 +25,7 @@ SECRET_KEY = '75jz-4-im6iqitd6a0shl%p_ja@b-=@mg4ockn6_aro6#(&7c0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.43.82']
 
 
 # Application definition
@@ -56,6 +56,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
+    'http://localhost:19006'
 )
 
 ROOT_URLCONF = 'movierater.urls'
